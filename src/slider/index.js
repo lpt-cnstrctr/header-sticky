@@ -17,7 +17,7 @@ function initSlider(slider){
     //set slider elements width
     elements.forEach(function(element){
         var style = window.getComputedStyle(element, null);
-        element.style.width = (elementWidth-2*parseFloat(style.getPropertyValue("padding-left")))+'px';
+        element.style.width = (elementWidth)+'px';
     });
 
     var sliderElement = slider.querySelector('.slider');
