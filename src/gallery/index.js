@@ -1,5 +1,5 @@
 function dcboxInit() {
-    if(typeof dcboxConfig==='undefined') dcboxConfig = {};
+    if(typeof dcboxConfig==='undefined') dcboxConfig = {close:true,zoom:false};
     var dConfig = {
         controls: (typeof dcboxConfig.controls==='undefined')? true : dcboxConfig.controls,
         close: (typeof dcboxConfig.close==='undefined')? false : dcboxConfig.close,
